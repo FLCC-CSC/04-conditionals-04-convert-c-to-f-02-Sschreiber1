@@ -14,10 +14,10 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-print("==== Temperature Converter =====")
+print("===== Temperature Converter =====")
 print()
-print(" 1. Convert from Celsius to Fahrenheit")
-print(" 2. Convert from Fahrenheit to Celsius")
+print("  1. Convert from Celsius to Fahrenheit")
+print("  2. Convert from Fahrenheit to Celsius")
 print()
 
 choice = input("Please choose from the above menu: ")
@@ -32,9 +32,6 @@ if choice == "1":
 else:
     celsius = (temperature - 32) * 5/9
     print(f"{temperature} degrees Fahrenheit is {celsius} degrees Celsius.")
-
-
-
 
 
 
